@@ -1,0 +1,62 @@
+﻿  CMng.cpp
+  Cursur.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\cursur.cpp(82): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DeviceFont.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\devicefont.cpp(56): warning C4838: 'size_t'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\devicefont.cpp(56): warning C4267: '초기화 중': 'size_t'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\devicefont.cpp(59): warning C4267: '인수': 'size_t'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\devicefont.cpp(67): warning C4838: 'size_t'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\devicefont.cpp(67): warning C4267: '초기화 중': 'size_t'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\devicefont.cpp(70): warning C4267: '인수': 'size_t'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  EventBlock.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\eventblock.cpp(122): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\eventblock.cpp(132): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\eventblock.cpp(133): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\eventblock.cpp(139): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\eventblock.cpp(145): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FmodSound.cpp
+  Game.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\game.cpp(63): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\game.cpp(76): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\game.cpp(83): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\game.cpp(215): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  GameManager.cpp
+  key.cpp
+  Logo.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\logo.cpp(80): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Main.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\main.cpp(18): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\main.cpp(119): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\main.cpp(141): warning C4244: 'return': 'WPARAM'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Map.cpp
+  Menu.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\menu.cpp(106): warning C4305: '+=': 'double'에서 'float'(으)로 잘립니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\menu.cpp(116): warning C4305: '-=': 'double'에서 'float'(으)로 잘립니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\menu.cpp(196): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\menu.cpp(200): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\menu.cpp(204): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\menu.cpp(210): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Over.cpp
+  Pipe.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(94): warning C4101: 'token' :참조되지 않은 지역 변수입니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(300): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(306): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(310): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(317): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(318): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(319): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\pipe.cpp(323): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Sound.cpp
+  Sprite.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\sprite.cpp(45): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\sprite.cpp(45): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\sprite.cpp(115): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\sprite.cpp(115): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Test.cpp
+c:\100studies\d3d\plumbergamejang\plumbergame\framework\test.cpp(55): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다.
+  181 of 319 functions (56.7%) were compiled, the rest were copied from previous compilation.
+    154 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  FrameWork.vcxproj -> C:\100Studies\D3D\PlumberGameJang\PlumberGame\x64\Release\FrameWork.exe

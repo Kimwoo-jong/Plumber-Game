@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="D3D Core">
+      <UniqueIdentifier>{7a9ad97c-09d8-4716-a30f-b6d891dc555c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D Core\코어 헤더파일">
+      <UniqueIdentifier>{9de5f299-b97a-4cbc-8b76-fa4257b5fed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D Core\코어 소스">
+      <UniqueIdentifier>{6658b04b-ad02-4972-bbd6-56610a7d0b17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sound">
+      <UniqueIdentifier>{61d52f9b-efee-4445-a052-f6c4ab5227fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameManager">
+      <UniqueIdentifier>{cebaf1a7-eceb-4a76-b89b-546059c9a4bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Map">
+      <UniqueIdentifier>{13bb9f74-4bfc-47bf-91dd-a899910e8f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pipe">
+      <UniqueIdentifier>{d7ff778d-d5bf-46c9-bd61-9d63bfd8d504}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter">
+      <UniqueIdentifier>{492ef567-b627-4e26-bac8-eed56f022c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter\Game">
+      <UniqueIdentifier>{5097b3bb-3111-416c-a21b-2e46994ef453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter\Logo">
+      <UniqueIdentifier>{8db687ca-618c-4994-b566-a091a2f31f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter\Menu">
+      <UniqueIdentifier>{50ec1b8a-1b7a-42a9-acf8-d9124a253796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter\Key">
+      <UniqueIdentifier>{96e05f85-3819-4e9f-a8b5-b0a27b2d7b58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Chapter\Over">
+      <UniqueIdentifier>{9c3b9463-b378-49c9-94c2-0aaef0e76a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EventBlock">
+      <UniqueIdentifier>{0a072078-d8a3-4159-a36a-e8caf672dc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Cursor">
+      <UniqueIdentifier>{c185f1a4-77a2-4ab3-aecd-19d71e8f1be6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sprite.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUTsound.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>소스 파일\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>소스 파일\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceFont.h">
+      <Filter>D3D Core\코어 헤더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Over.h">
+      <Filter>소스 파일\Chapter\Over</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\Chapter\Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>소스 파일\Chapter\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>소스 파일\Chapter\Key</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\Chapter\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CMng.h">
+      <Filter>소스 파일\Chapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Chap.h">
+      <Filter>소스 파일\Chapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBlock.h">
+      <Filter>소스 파일\EventBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>소스 파일\Cursor</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.h">
+      <Filter>소스 파일\Pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="FmodSound.h">
+      <Filter>소스 파일\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUTsound.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>소스 파일\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceFont.cpp">
+      <Filter>D3D Core\코어 소스</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>소스 파일\Pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="Over.cpp">
+      <Filter>소스 파일\Chapter\Over</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\Chapter\Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>소스 파일\Chapter\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="key.cpp">
+      <Filter>소스 파일\Chapter\Key</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\Chapter\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CMng.cpp">
+      <Filter>소스 파일\Chapter</Filter>
+    </ClCompile>
+    <ClCompile Include="EventBlock.cpp">
+      <Filter>소스 파일\EventBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>소스 파일\Cursor</Filter>
+    </ClCompile>
+    <ClCompile Include="FmodSound.cpp">
+      <Filter>소스 파일\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FrameWork.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resource\images\Icon2.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\icon.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
