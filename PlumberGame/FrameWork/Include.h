@@ -16,7 +16,7 @@
 // 데이타 베이스///////////////////
 //#include <my_global.h>
 #include <winsock2.h>
-#include <mysql.h>
+//#include <mysql.h>
 #pragma comment(lib, "libmySQL.lib")
 
 //////////////////////////////////
@@ -66,7 +66,7 @@
 #include "Cursor.h"
 
 // 데이타 베이스///////////////////
-#include "Mysql.h"
+//#include "Mysql.h"
 
 /* ---------------------------------------------------
 ///////////////// 사용자 추가 파일 ///////////////////

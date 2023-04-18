@@ -1,26 +1,2 @@
-﻿  Game.cpp
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Game.cpp(55,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Game.cpp(68,110): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Game.cpp(68,77): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Game.cpp(75,33): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Game.cpp(191,32): warning C4244: '+=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  GameManager.cpp
-  Sprite.cpp
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,19): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,19): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,24): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,24): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,29): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,29): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,34): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(45,34): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,15): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,15): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,19): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,19): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,23): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,23): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,27): warning C4838: 'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\FrameWork\Sprite.cpp(115,27): warning C4244: '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  코드를 생성하고 있습니다...
-  FrameWork.vcxproj -> C:\Users\seoulit\Desktop\PlumberGameJang\PlumberGame\x64\Debug\FrameWork.exe
+﻿  LINK : D:\GitRepository\Plumber-Game\PlumberGame\x64\Debug\FrameWork.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
+  FrameWork.vcxproj -> D:\GitRepository\Plumber-Game\PlumberGame\x64\Debug\FrameWork.exe

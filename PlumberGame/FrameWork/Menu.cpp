@@ -16,12 +16,12 @@ void Menu::Init()
 {
 	mouseOverStart = 0;																	//시작 버튼 효과음 변수
 	mouseOverExit = 0; 																	//종료 버튼 효과음 변수
-	mouseOverScore = 0; 																//Score 버튼 효과음 변수
+	mouseOverHelp = 0; 																	//도움말 버튼 효과음 변수
 
 	bool  muteChk = 0;
-	isHelpOn = false; 																	//Score 화면인가 체크
-	isStageSelectOn = false; 																	//스테이지 선택 화면인지
-	helpImageSize = 0; 																		//스코어 창 사이즈는 0
+	isHelpOn = false; 																	//도움말 화면인가 체크
+	isStageSelectOn = false; 															//스테이지 선택 화면인지
+	helpImageSize = 0; 																	//도움말 창 사이즈는 0
 	menuSoundCheck = false; 															//메뉴 효과음 한 번만 나게
 
 	for (int i = 0; i < 12; i++)
@@ -30,7 +30,7 @@ void Menu::Init()
 	}
 
 	mainImg.Create("./resource/images/Menu/MAIN.png", false, D3DCOLOR_XRGB(0, 0, 0));			 //메인
-	helpImg.Create("./resource/images/score1111.png", false, D3DCOLOR_XRGB(0, 0, 0));		 //스코어 보드 이미지
+	helpScreenImg.Create("./resource/images/score1111.png", false, D3DCOLOR_XRGB(0, 0, 0));		 //도움말 이미지
 
 	char FileName[256];
 
@@ -40,7 +40,7 @@ void Menu::Init()
 	sprintf_s(FileName, "./resource/images/Menu/EXIT1.png");								 //EXIT버튼 이미지
 	exitImg.Create(FileName, false, D3DCOLOR_XRGB(0, 0, 0));
 
-	sprintf_s(FileName, "./resource/images/Menu/help.png");									 //SCORE버튼 이미지
+	sprintf_s(FileName, "./resource/images/Menu/help.png");									 //도움말 버튼 이미지
 	helpImg.Create(FileName, false, D3DCOLOR_XRGB(0, 0, 0));
 
 	//스테이지 이미지
@@ -113,12 +113,12 @@ void Menu::Draw()
 	helpImg.Render(0, 0, 0, 1, 1);
 	startImg.Render(0, 0, 0, 1, 1);
 	exitImg.Render(0, 0, 0, 1, 1);
-	helpImg.Render(0, 0, 0, helpImageSize, helpImageSize);
+	helpScreenImg.Render(0, 0, 0, helpImageSize, helpImageSize);
 
-	//스코어 버튼 클릭 시
+	//도움말 버튼 클릭 시
 	if (isHelpOn == true)
 	{
-		helpImg.Render(0, 0, 0, helpImageSize, helpImageSize);
+		helpScreenImg.Render(0, 0, 0, helpImageSize, helpImageSize);
 	}
 	// 스테이지 선택 창이 켜지면
 	else if (isStageSelectOn == true)
@@ -407,19 +407,19 @@ void Menu::OnMessage(MSG* msg)
 				69 > HIWORD(msg->lParam) &&
 				HIWORD(msg->lParam) >= 0)
 			{
-				if (mouseOverScore == 0 && isMute == 0)
+				if (mouseOverHelp == 0 && isMute == 0)
 				{
 					sound.m_Menuon->Play(0);
 				}
-				mouseOverScore = 1;
+				mouseOverHelp = 1;
 			}
 			else
 			{
-				if (mouseOverScore == 1 && isMute == 0)
+				if (mouseOverHelp == 1 && isMute == 0)
 				{
 					sound.m_Menuoff->Play(0);
 				}
-				mouseOverScore = 0;
+				mouseOverHelp = 0;
 			}
 		}
 		else if (isStageSelectOn == true)
@@ -516,7 +516,7 @@ void Menu::OnMessage(MSG* msg)
 			else
 				sound.m_Menusel->Stop();
 			isHelpOn = false;
-			mouseOverScore = 0;
+			mouseOverHelp = 0;
 		}
 		else if (isStageSelectOn == true)
 		{
