@@ -1,0 +1,34 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  CMng.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Cursor.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  DXUTsound.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\DXUTsound.cpp(19,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'dxerr.h': No such file or directory
+  DeviceFont.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  EventBlock.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  FmodSound.cpp
+  Game.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  GameManager.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  key.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Logo.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Main.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Map.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Menu.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Over.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Pipe.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Sound.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory
+  Sprite.cpp
+D:\GitRepository\Plumber-Game\PlumberGame\FrameWork\Include.h(33,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'd3dx9.h': No such file or directory

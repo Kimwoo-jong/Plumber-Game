@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\GitRepository\Plumber-Game\PlumberGame\x64\Release\FrameWork.exe</FullPath>
+      <FullPath>D:\GitRepository\Plumber-Game\PlumberGame\Build\FrameWork.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
